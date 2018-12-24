@@ -9,20 +9,17 @@ class Header extends PureComponent {
      * @returns {*}
      */
     render() {
-
         const {inputValue, onAddItem, onInputChange, onToggleAllComplete} = this.props
-        const {header: headerStyles, input: inputStyles, toggleIcon: toggleIconStyles} = styles
-
         return (
-            <View style={headerStyles}>
+            <View style={styles.header}>
 
                 <TouchableOpacity onPress={onToggleAllComplete}>
-                    <Text style={toggleIconStyles}>
+                    <Text style={styles.toggleIcon}>
                         {String.fromCharCode(10003)}
                     </Text>
                 </TouchableOpacity>
 
-                <TextInput style={inputStyles}
+                <TextInput style={styles.input}
                            value={inputValue}
                            onChangeText={onInputChange}
                            onSubmitEditing={onAddItem}
