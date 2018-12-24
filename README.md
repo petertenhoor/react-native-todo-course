@@ -15,4 +15,4 @@ Learning React Native basics by coding a to do application (egghead course with 
 
 ## Result
 
-![](result.gif)
+![](https://media.giphy.com/media/Yk4z9fcwk1hWTlmDk4/giphy.gif)
