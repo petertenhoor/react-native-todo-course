@@ -15,4 +15,4 @@ Learning React Native basics by coding a to do application (egghead course with 
 
 ## Result
 
-https://media.giphy.com/media/Yk4z9fcwk1hWTlmDk4/giphy.gif
+[Check out the video on YouTube](https://www.youtube.com/watch?v=L6dinrORB3Q)
